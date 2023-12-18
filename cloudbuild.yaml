@@ -1,0 +1,7 @@
+steps:
+  name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/direct-shadow-408513/github.com/its-dinner-time/cloud-run-nest', '.']
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+  
